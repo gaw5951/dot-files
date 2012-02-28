@@ -1,1 +1,93 @@
-/home/gideon/.Xdefaults
+! tangoesque scheme
+urxvt*background:  #222222
+urxvt*foreground:  #aaaaaa
+! Black
+urxvt*color0:      #000000
+urxvt*color8:      #555753
+! Red
+urxvt*color1:      #ff6565
+urxvt*color9:      #ff8d8d
+! Green
+urxvt*color2:      #93d44f
+urxvt*color10:     #c8e7a8
+! Yellow
+urxvt*color3:      #eab93d
+urxvt*color11:     #ffc123
+! Blue
+urxvt*color4:      #204a87
+urxvt*color12:     #3465a4
+! Mangenta
+urxvt*color5:      #ce5c00
+urxvt*color13:     #f57900
+! Cyan 
+urxvt*color6:      #89b6e2
+urxvt*color14:     #46a4ff
+! White
+urxvt*color7:      #cccccc
+urxvt*color15:     #ffffff
+
+
+
+! rxvt-unicode ---------------------------------------------------------------
+
+
+!for normal X11 fonts:
+!urxvt*font:      -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
+!urxvt*boldFont:  -*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*
+urxvt*font:      -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+urxvt*boldFont:  -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!urxvt*font:      -*-proggyclean-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont:  -*-proggyclean-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*font:      -*-proggysquaresz-*-*-*-*-*-*-*-*-*-*-*-*
+!urxvt*boldFont:  -*-proggysquaresz-*-*-*-*-*-*-*-*-*-*-*-*
+
+urxvt*geometry:           160x50
+urxvt*internalBorder:     5
+urxvt*fading:             20
+urxvt*shading:            80
+urxvt*tintColor:          #222222
+urxvt*inheritPixmap:      false
+!urxvt*depth:              24
+urxvt*depth:              32
+urxvt*saveLines:          32767
+urxvt*visualBell:         false
+urxvt*scrollTtyKeypress:  true
+urxvt*scrollWithBuffer:   false
+urxvt*scrollTtyOutput:    false
+urxvt*scrollBar:          false
+urxvt*scrollstyle:        plain
+urxvt*scrollBar_right:    true
+urxvt*scrollColor:        #777777
+urxvt*cursorColor:        #ffcc00
+urxvt*loginShell:         true
+urxvt*termName:           xterm-256color
+urxvt*cutchars:           "()*,<>[]{}|'
+urxvt*print-pipe:         cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
+urxvt*secondaryScroll:    true
+urxvt*mapAlert:           true
+urxvt*utmpInhibit:        true
+urxvt*perl-lib:           /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:    default,matcher,tabbed
+URxvt.urlLauncher:        /usr/bin/chromium
+
+urxvt*matcher.button:     1
+!urxvt*background:         #191919
+urxvt*background:         rgba:2222/2222/2222/dddd
+!urxvt*background:         rgba:0000/0000/0000/dddd
+
+
+! xterm ----------------------------------------------------------------------
+
+xterm*geometry:           80x25
+xterm*faceName:           terminus:pixelsize=10
+xterm*dynamicColors:      true
+xterm*utf8:               2
+xterm*eightBitInput:      true
+xterm*saveLines:          32767
+xterm*scrollTtyKeypress:  true
+xterm*scrollTtyOutput:    false
+xterm*scrollBar:          true
+xterm*loginShell:         true
+xterm*jumpScroll:         false
+xterm*multiScroll:        true
+xterm*toolBar:            true

@@ -1,1 +1,1 @@
-/home/gideon/.vimrc
+/home/gideon/.spf13-vim-3/.vimrc
