@@ -20,7 +20,8 @@ alias pacman='sudo pacman-color'
 alias ls='ls --color=auto -F'
 
 # variables ------------------------------
-export PS1='\[\033[1;37;45m\]> \[\033[0;40m\]\w\[\033[0;31m\]\n\$ \[\033[0m\]'
+export PS1='\[\033[1;37;45m\]> \[\033[0;40m\]\w\[\033[0m\]\n\[\033[0;31m\]\$ \[\033[0m\]'
+export PS2='\[\033[0;31m\]\$ \[\033[0m\]' #for multi line
 export EDITOR='vim'
 
 # bash sudo completion -------------------
